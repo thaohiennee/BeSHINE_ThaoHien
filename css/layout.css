@@ -1,0 +1,131 @@
+.menu>ul>li{
+    display:inline-block
+}
+.menu>ul>li>a{
+    display:block
+}
+.menu>ul{
+    padding:0px;
+    margin: 0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:pink;
+    text-align:center;
+}
+.menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger color white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+     color: rgb(245, 245, 233)
+}
+.menu>ul>li{
+    position:relative
+}
+.menu ul ul{
+    position:absolute;
+    display:none
+}
+.menu ul ul a{
+    display:block
+}
+.menu>ul>li:hover>ul{
+    display:block
+}
+.menu ul ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:0px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray
+}
+.menu ul ul a{
+    line-height:30px;
+color:pink;
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+padding:0 0px;
+}
+.container{
+    width: 2000px;
+    margin: 0 auto;
+}
+.container header{
+    background-image: url('../image/cover.jpg');
+    background-size:100% 100%;
+    height:300px;
+    width: auto;
+    padding-bottom:25%;
+    position: relative;
+    }
+    .top-right{
+        position: absolute;
+        top:0px;
+        right: 0px;
+        width: 150px;
+        border-bottom-left-radius: 15px;
+        background-color: pink;
+        line-height: 30px;
+        text-align: center;
+        font-size:3mm;
+    }
+    .top-right>a{
+        color:white;
+        text-decoration: black;
+        font-variant: small-caps;
+    }  
+.container>nav{
+    line-height:2px;
+    background-color:pink;
+    color:white;
+    text-align:left;
+    font-variant:small-caps;
+    display: inline-block;
+    width: 100%;
+    font-family:serif;
+    }
+
+.container>main{
+    width: 100%;
+}
+.container article{
+    min-height:400px;
+    width:70%;
+    background-color:rgb(223, 245, 253);
+    float:left;
+    }
+.container aside{
+        min-height:400px;
+        width:25%;
+        background-color: rgb(186, 234, 250);
+        float:left;
+        text-decoration: none;
+        }
+.container footer{
+     border-top:5px double pink;
+     line-height:40px;
+     background-color:pink;
+     text-align:center;
+     font-variant:small-caps;
+     clear:both;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+table{
+    background-color: rgb(186, 234, 250);
+    border-style: double;
+    font-size: 3mm;
+    text-align: center;
+    position:-webkit-sticky;
+    border-collapse: collapse;
+
+}
+style h2{
+    text-align: center;
+}
